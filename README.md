@@ -67,3 +67,5 @@ The server is configured using a file (e.g., `config/default.conf`). Key configu
 
 - [maxenceguy](https://github.com/maxenceguy)
 - [toji-42](https://github.com/toji-42)
+
+Grade: 100
