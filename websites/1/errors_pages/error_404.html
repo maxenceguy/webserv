@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>webserv</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+	
+			body {
+				font-family: 'Orbitron', sans-serif;
+				background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+				color: #0ff;
+				margin: 0;
+				padding: 20px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+			}
+	
+			.container1, .container2 {
+				margin: 20px;
+				max-width: 90%;
+				width: 100%;
+				background: rgba(0, 0, 0, 0.8);
+				padding: 20px;
+				border-radius: 15px;
+				box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+				backdrop-filter: blur(10px);
+				border: 2px solid rgba(0, 255, 255, 0.5);
+			}
+	
+			h1, h2 {
+				text-align: center;
+				text-transform: uppercase;
+				color: #ff00ff;
+				text-shadow: 0 0 5px #ff00ff, 0 0 15px #ff00ff, 0 0 20px #ff1493;
+				animation: glitch 0.8s infinite alternate;
+			}
+	
+			@keyframes glitch {
+				0% { text-shadow: 2px 2px 5px #ff00ff, -2px -2px 5px #00ffff; }
+				100% { text-shadow: -2px -2px 5px #ff00ff, 2px 2px 5px #00ffff; }
+			}
+	
+			h3 {
+				font-size: 1.2vw;
+				color: #ff00ff;
+				text-shadow: 0 0 10px #ff00ff, 0 0 15px #ff1493;
+			}
+	
+			.btn {
+				background: linear-gradient(90deg, #ff00ff, #00ffff);
+				color: black;
+				border: none;
+				padding: 12px 18px;
+				border-radius: 8px;
+				cursor: pointer;
+				font-size: 16px;
+				transition: 0.3s;
+				text-shadow: none;
+				box-shadow: 0 0 10px #00ffff;
+			}
+	
+			.btn:hover {
+				background: linear-gradient(90deg, #00ffff, #ff00ff);
+				box-shadow: 0 0 20px #ff00ff;
+			}
+	
+			.btn-danger {
+				background: linear-gradient(90deg, #ff0033, #ff00ff);
+			}
+	
+			.btn-danger:hover {
+				box-shadow: 0 0 20px #ff0033;
+			}
+	
+			.file-list, .upload-section {
+				background: rgba(0, 0, 0, 0.6);
+				padding: 15px;
+				border-radius: 10px;
+				margin-top: 20px;
+				border: 1px solid #00ffff;
+				box-shadow: 0 0 10px #00ffff;
+			}
+	
+			.file-item {
+				display: flex;
+				justify-content: space-between;
+				padding: 10px;
+				background: rgba(0, 255, 255, 0.2);
+				border-radius: 8px;
+				margin-bottom: 10px;
+				box-shadow: 0 0 5px #00ffff;
+			}
+	
+			.message {
+				text-align: center;
+				padding: 10px;
+				margin-top: 10px;
+				border-radius: 8px;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+	
+			.message.success {
+				background: rgba(40, 167, 69, 0.3);
+				color: #0f0;
+				box-shadow: 0 0 10px #0f0;
+			}
+	
+			.message.error {
+				background: rgba(220, 53, 69, 0.3);
+				color: #f00;
+				box-shadow: 0 0 10px #f00;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container1">
+			<h1>WEBSERV</h1>
+		</div>
+
+		<div class="container2">
+			<h2>Error 404: Not Found</h2>
+		</div>
+		
+		<div class="container1">
+			<h3>42 Project - Common Core |
+				Artists: fsulvac - mguy |
+				42 Lyon</h3>
+		</div>
+	</body>
+</html>

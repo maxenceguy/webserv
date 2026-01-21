@@ -1,0 +1,15 @@
+# Object files and dependencies
+obj/
+*.o
+*.d
+
+# Executable
+webserv
+
+# System files
+.DS_Store
+.vscode/
+
+# Temporary files
+*.swp
+*~
